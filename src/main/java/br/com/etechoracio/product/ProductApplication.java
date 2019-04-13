@@ -16,6 +16,6 @@ public class ProductApplication {
 
 	@Bean
 	public ServletRegistrationBean<FacesServlet> servletResgistrationBean() {
-			return new ServletRegistrationBean<FacesServlet>(new FacesServlet(), "*xhtml");
+			return new ServletRegistrationBean<FacesServlet>(new FacesServlet(), "*.xhtml");
 	}
 }
